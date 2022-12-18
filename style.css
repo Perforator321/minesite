@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  background-image: url(images/tile_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 25px;
+}
+header{
+  background-position: center center;
+  background-image: url(images/maineheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1px 0 0 0;
+}
+header>h1{
+  font-family: Andale Mono, monospace;
+  color: white;
+  font-size: 75px;
+  padding: 30% 3% 0;
+  text-shadow: 0 15px 30px black, 0 -15px 30px blue;
+}
+header>nav{
+  font-family: Andale Mono, monospace;
+  background-color: black;
+  margin: 0;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+nav>a{
+  text-decoration:none;
+  color: white;
+}
+.block{
+  background-color: white;
+  margin: 10%;
+  padding: 5% 5%;
+  border-radius: 10px;
+  font-family: Andale Mono, monospace;
+}
+.blockimg{
+  margin: 0 10%;
+  width: 80%;
+  border-radius: 5px;
+}
+.CaveGame{
+  color: purple;
+  font-size: 60px;
+  font-family: 'Dancing Script';
+}
+.Minecraft{
+  color: #5FBE4B;
+  font-size: 60px;
+  font-family: 'MinecrafterAltRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+.Classic{
+  color: black;
+  font-size: 60px;
+  font-family: 'Dancing Script';
+}
+.inlimg{
+  display: inline-block;
+  margin: 0 2%;
+  width: 25%;
+  border-radius: 5px;
+}
+.inbl{
+  display: inline-block;
+  width: 65%;
+  text-align: justify;
+}
+div{
+  margin: 100px;
+}
+
+
+
+
+footer{
+  background-position: center center;
+  background-image: url(images/Minefooter.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0px 0px 30px 30px rgba(0, 0, 0, 1);
+}
+footer>p{
+  font-family: Andale Mono, monospace;
+  font-size: 22px;
+  color: white;
+  padding: 5% 5%;
+  text-shadow: 5px 5px 10px black;
+  margin: 0 0 0 0;
+}
+
